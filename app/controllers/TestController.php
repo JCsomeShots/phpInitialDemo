@@ -4,11 +4,14 @@ class TestController extends ApplicationController
 {
 	public function indexAction()
 	{
-		$this->view->message = "hello from test::index";
+		// echo "loqtuquieabb";
+		// exit (0);
+		$this->view->message;
+		// var_dump $this->view->message();
 	}
 	
 	public function checkAction()
 	{
-		echo "hello from test::check";
+		var_dump(WEB_ROOT);
 	}
 }

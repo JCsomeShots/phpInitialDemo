@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400;500;600&family=Rubik:wght@400;500&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, #939597 , #000);
+  text-align: center;
+  margin: auto;
+  font-family: "Red Hat Mono" , monospace;
+}
+
+.foto {
+  background-image: url("img/landImageOficial.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-top: 1rem;
+}
+
+h1{
+  color: #f5df4d ;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 60px 0px 0px;
+}
+h2{
+  color: #f5df4d ;
+  font-size: 1.1rem;
+  margin-top: 0.7rem;
+  font-weight: 100;
+}
+
+.botones {
+  text-align: center;
+  margin: auto;
+  padding: 100px 10px;
+}
+.sign , .log {
+  font-weight: 300;
+  padding: 15px auto;
+  width: 200px;
+  margin: auto;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: none;
+  transition: .2s ease-in;
+}
+
+.sign {
+  margin-top: 4rem;
+  background-color: #939597;
+  color: #f5df4d;
+  bottom: 160px;
+}
+.log {
+  margin-top: 5px;
+  bottom: 200px;
+  background-color: #f5df4d;
+  color: black;
+}
+.sign:hover , .log:hover{
+  cursor: pointer;
+  color: black;
+  background: #f5df4d;
+  box-shadow: 0 0 5px #f5df4d, 0 0 25px #f5df4d , 0 0 50px #f5df4d, 0 0 200px #f5df4d;
+  font-size: 1.1rem;
+  color: #939597;
+} 

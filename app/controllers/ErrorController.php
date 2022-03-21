@@ -20,6 +20,8 @@ class ErrorController extends Controller
 	 */
 	public function errorAction()
 	{
+		
+		
 		// sets the 404 header
 		header("HTTP/1.0 404 Not Found");
 		

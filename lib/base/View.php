@@ -143,6 +143,7 @@ class View
 	public function baseUrl()
 	{
 		return WEB_ROOT;
+		
 	}
 	
 	/**
